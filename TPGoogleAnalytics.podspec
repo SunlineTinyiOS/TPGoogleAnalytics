@@ -29,16 +29,10 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'TPGoogleAnalytics/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'TPGoogleAnalytics' => ['TPGoogleAnalytics/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'SystemConfiguration', 'CoreData'
-    s.vendored_libraries = 'TPGoogleAnalytics/Assets/libGoogleAnalyticsServices.a', 'TPGoogleAnalytics/Assets/libAdIdAccess.a'
-    spec.libraries = 'sqlite3', 'z'
+  s.frameworks = 'SystemConfiguration', 'CoreData'
+  s.vendored_libraries ='TPGoogleAnalytics/Assets/libGoogleAnalyticsServices.a','TPGoogleAnalytics/Assets/libAdIdAccess.a'
+  s.libraries = 'sqlite3', 'z'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
