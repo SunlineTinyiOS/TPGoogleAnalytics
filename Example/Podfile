@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TPGoogleAnalytics_Example' do
+  pod 'TPGoogleAnalytics', :path => '../'
+
+  target 'TPGoogleAnalytics_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

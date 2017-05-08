@@ -1,0 +1,16 @@
+PODS:
+  - TPGoogleAnalytics (0.1.0)
+
+DEPENDENCIES:
+  - TPGoogleAnalytics (from `../`)
+
+EXTERNAL SOURCES:
+  TPGoogleAnalytics:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TPGoogleAnalytics: cabddbc14ca5ee056c2fc97ad44649edcf0c6477
+
+PODFILE CHECKSUM: 53abf0d9322e773bd933ca1dd57895c4e47bdcaf
+
+COCOAPODS: 1.2.1
