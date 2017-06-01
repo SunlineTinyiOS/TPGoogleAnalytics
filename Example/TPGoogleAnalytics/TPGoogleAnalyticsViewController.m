@@ -20,8 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     TPGoogleAnalytics *googleAnalytics = [[TPGoogleAnalytics alloc]init];
-    [googleAnalytics AnalyticsEventHit:@"UI" action:@"OPEN" label:@"settings" value:nil];
-    [googleAnalytics AnalyticsTml:@"shouye"];
+    [googleAnalytics AnalyticsEventHit:@"11" :@"11" :@"2" :@"12"];
 }
 
 - (void)didReceiveMemoryWarning

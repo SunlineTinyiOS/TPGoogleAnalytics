@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TPGoogleAnalytics'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '谷歌统计'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/SunlineTinyiOS/TPGoogleAnalytics'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'bygd2014@sina.com' => 'bygd2014@sina.com' }
+  s.author           = { 'kingdomrain' => 'bygd2014@sina.com' }
   s.source           = { :git => 'https://github.com/SunlineTinyiOS/TPGoogleAnalytics.git'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

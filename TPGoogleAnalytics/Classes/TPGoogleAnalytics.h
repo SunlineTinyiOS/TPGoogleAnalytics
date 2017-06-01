@@ -10,11 +10,11 @@
 #import <JavaScriptCore/JSExport.h>
 
 @protocol TPGoogleAnalyticsProtocol <JSExport>
--(void)AnalyticsTml:(NSString*)pageName;   //记录页面
--(void)AnalyticsEventHit:(NSString *)category
-                  action:(NSString *)action
-                   label:(NSString *)label
-                   value:(NSNumber *)value;   //记录点击事件
+-(void)AnalyticsLoadTml;      //页面加载统计
+-(void)AnalyticsdidAppearTml;   //页面出现统计
+-(void)AnalyticsOnunloadTml;      //页面消失统计
+
+-(void)AnalyticsEventHit:(NSString *)category :(NSString *)action :(NSString *)label :(NSNumber *)value;
 
 @end
 

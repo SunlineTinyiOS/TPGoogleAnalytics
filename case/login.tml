@@ -1,0 +1,13 @@
+<tml id="login">
+	<head>
+		<style href="css/public.css"/>
+		<script src="commonJs/tools.js"/>
+        <script src="commonJs/GoogleAnalytics.js"/>
+        <script src="staticJs/login.js"/>
+	</head>
+	<body>
+        <label class="loginLabel" value="hello TinyBuilder!"/>
+        <button value="点击事件捕捉" onclick="funcPress()"/>
+        <button value="事件捕捉" onclick="funcPress1()"/>
+	</body>
+</tml>

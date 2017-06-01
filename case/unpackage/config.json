@@ -1,0 +1,171 @@
+{
+    "platforms": [
+        "android",
+        "iPhone",
+        "iPad"
+    ],
+    "name": "TinyApp",
+    "version": {
+        "name":"1.0.0",
+        "build":"1.0"
+    },
+    "launch_path": "file:///ProjectName/nav.tml",
+    "debugMode":"false",
+    "permissions": {
+        "PhotoLibrary": {
+            "description": "需要您的同意,才能访问相册"
+        },
+        "Camera": {
+            "description": "需要您的同意,才能访问相机"
+        },
+        "Microphone": {
+            "description": "需要您的同意,才能访问麦克风"
+        },
+        "Location": {
+            "description": "需要您的同意,才能访问位置"
+        },
+        "LocationWhenInUse": {
+            "description": "需要您的同意,才能在使用期间访问位置"
+        },
+        "LocationAlways": {
+            "description": "需要您的同意,才能始终访问位置"
+        },
+        "Calendars": {
+            "description": "需要您的同意,才能访问日历"
+        },
+        "Reminders": {
+            "description": "需要您的同意,才能访问提醒事项"
+        },
+        "Motion": {
+            "description": "需要您的同意,才能访问运动与健身"
+        },
+        "HealthUpdate": {
+            "description": "需要您的同意,才能访问健康更新"
+        },
+        "HealthShare": {
+            "description": "需要您的同意,才能访问健康分享"
+        },
+        "Bluetooth": {
+            "description": "需要您的同意,才能访问蓝牙"
+        },
+        "AppleMusic": {
+            "description": "需要您的同意,才能访问媒体资料库"
+        }
+    },
+    "plus": {
+        "distribute": {
+            "plugins": {
+                "TPQRCode": {
+                    "type":"TP",
+                    "version":{"ios":"2.0.1","android":"1.0.0"}
+                },
+                "TEQRCode": {
+                    "type":"TE",
+                    "version":{"ios":"0.0.1"}
+                }
+            },
+            "apple": {
+                "appid": "com.sunline.MFX",
+                "mobileprovision": "unpackage/res/distriution/ios/MFXdistribution.mobileprovision",
+                "password": "123456",
+                "p12": "unpackage/res/distriution/ios/ios.p12",
+                "devices": "universal",
+                "frameworks": [],
+                "tinyVersion":"1.0.3"
+            },
+            "google": {
+                "packagename": "com.panpan.tinybuilder",
+                "keystore": "unpackage/res/distriution/android/debug2.keystore",
+                "password": "android",
+				"keyAlias":"androiddebugkey",
+				"keyPassword":"android",
+                "permissions": [
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>"
+                    , "<uses-permission android:name=\"android.permission.WRITE_SMS\"/>"
+                    , "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>"
+                    , "<uses-permission android:name=\"android.permission.READ_CALL_LOG\" />"
+                    , "<uses-permission android:name=\"android.permission.READ_SMS\"/>"
+                    , "<uses-permission android:name=\"android.permission.RECEIVE_MMS\"/>"
+                    , "<uses-permission android:name=\"android.permission.RECEIVE_SMS\"/>"
+                    , "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\"/>"
+                    , "<uses-permission android:name=\"android.permission.BLUETOOTH\"/>"
+                    , "<uses-permission android:name=\"org.simalliance.openmobileapi.SMARTCARD\"/>"
+                    , "<uses-permission android:name=\"android.permission.NFC\"/>"
+                    , "<uses-feature android:name=\"android.hardware.nfc.hce\"/>"
+                    , "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>"
+                    , "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>"
+                    , "<uses-permission android:name=\"android.permission.INTERNET\"/>"
+                    , "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>"
+                    , "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>"
+                    , "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>"
+                    , "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>"
+                    , "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>"
+                    , "<uses-permission android:name=\"android.permission.CAMERA\"/>"
+                    , "<uses-feature android:name=\"android.hardware.camera\"/>"
+                    , "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />"
+                    , "<uses-permission android:name=\"android.permission.GET_TASKS\"/>"
+                    , "<uses-permission android:name=\"android.permission.FORCE_STOP_PACKAGES\"/>"
+                ],
+                "tinyVersion":"1.2.1086"
+            },
+            "orientation": [
+                "portrait-primary",
+                "portrait-secondary",
+                "landscape-primary",
+                "landscape-secondary"
+            ],
+            "icons": {
+                "ios": {
+                    "iphone": {
+                        "retina7": "unpackage/res/icons/120x120.png",
+                        "retina8": "unpackage/res/icons/180x180.png"
+                    },
+                    "ipad": {
+                        "normal": "unpackage/res/icons/72x72.png",
+                        "retina": "unpackage/res/icons/144x144.png",
+                        "normal7": "unpackage/res/icons/76x76.png",
+                        "retina7": "unpackage/res/icons/152x152.png",
+                        "spotlight-normal": "unpackage/res/icons/50x50.png",
+                        "spotlight-retina": "unpackage/res/icons/100x100.png",
+                        "spotlight-normal7": "unpackage/res/icons/40x40.png",
+                        "spotlight-retina7": "unpackage/res/icons/80x80.png",
+                        "settings-normal": "unpackage/res/icons/29x29.png",
+                        "settings-retina": "unpackage/res/icons/58x58.png"
+                    }
+                },
+                "android": {
+                    "mdpi": "unpackage/res/icons/48x48.png",
+                    "hdpi": "unpackage/res/icons/72x72.png",
+                    "xhdpi": "unpackage/res/icons/96x96.png",
+                    "xxhdpi": "unpackage/res/icons/144x144.png"
+                }
+            },
+            "splashscreen": {
+                "ios": {
+                    "iphone": {
+                        "retina35": "unpackage/res/splashscreen/Default@2x.png",
+                        "retina40": "unpackage/res/splashscreen/Default-568h@2x.png",
+                        "retina47": "unpackage/res/splashscreen/Default-375w-667h@2x.png",
+                        "retina55": "unpackage/res/splashscreen/Default-414w-736h@3x.png"
+                    },
+                    "ipad": {
+                        "portrait": "",
+                        "portrait-retina": "",
+                        "landscape": "",
+                        "landscape-retina": "",
+                        "portrait7": "",
+                        "portrait-retina7": "",
+                        "landscape7": "",
+                        "landscape-retina7": ""
+                    }
+                },
+                "android": {
+                    "mdpi": "unpackage/res/splashscreen/320x568.png",
+                    "hdpi": "unpackage/res/splashscreen/540x960.png",
+                    "xhdpi": "unpackage/res/splashscreen/720x1280.png",
+                    "xxhdpi": "unpackage/res/splashscreen/1080x1920.png"
+                }
+            }
+        }
+    }
+}
